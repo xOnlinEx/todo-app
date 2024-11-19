@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 import com.xonlinex.todo_app_back.models.Task;
 
 @Repository
-public interface TaskRepository extends JpaRepository<Task, UUID> {
+public interface TaskRepository extends JpaRepository<Task, Long> {
 }
